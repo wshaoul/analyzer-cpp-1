@@ -60,12 +60,12 @@ int main() {
 	for (auto &word: searchWords) {
 		cout << "Searching for... '" << word << "'" << endl;
 
-		auto linear_ind = linearSearch(stringData, word);
-		cout << "\tIndex = " << linear_ind << endl;
+		auto linearInd = linearSearch(stringData, word);
+		cout << "\tIndex = " << linearInd << endl;
 		cout << endl;
 
-		auto binary_ind = binarySearch(stringData, word);
-		cout << "\tIndex = " << binary_ind << endl;
+		auto binaryInd = binarySearch(stringData, word);
+		cout << "\tIndex = " << binaryInd << endl;
 
 
 		cout << endl;
